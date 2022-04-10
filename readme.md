@@ -19,8 +19,9 @@ To launch your blockchain live on multiple nodes, use `starport network` command
 
 ### Accounts
 
-🙂 Created account "alice" with address "cosmos1lnwkxk3uc2hfr9lfhlqytk0wkp2kz30e8h9lpr" with mnemonic: "dinosaur awake minimum armor glimpse hello network tragic virtual vital artefact capable huge brown inspire plastic track notice favorite edge kiss duty catch supreme"
-🙂 Created account "bob" with address "cosmos1ht3wkyv94prt4qfepx8fq002evmmsk5eq4x730" with mnemonic: "unusual inside tube badge toe mandate patient loud what solve resist velvet guilt sail misery injury essence ill beach stone keep iron estate boost"
+🙂 Created account "alice" with address `cosmos1lnwkxk3uc2hfr9lfhlqytk0wkp2kz30e8h9lpr` with mnemonic: "dinosaur awake minimum armor glimpse hello network tragic virtual vital artefact capable huge brown inspire plastic track notice favorite edge kiss duty catch supreme"
+
+🙂 Created account "bob" with address `cosmos1ht3wkyv94prt4qfepx8fq002evmmsk5eq4x730` with mnemonic: "unusual inside tube badge toe mandate patient loud what solve resist velvet guilt sail misery injury essence ill beach stone keep iron estate boost"
 
 ### Web Frontend
 
