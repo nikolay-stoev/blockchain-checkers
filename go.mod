@@ -12,7 +12,7 @@ require (
 	github.com/spf13/cast v1.3.1
 	github.com/spf13/cobra v1.1.3
 	github.com/stretchr/testify v1.7.0
-	github.com/tendermint/spm v0.0.0-20210625155357-5a2c8d79013b
+	github.com/tendermint/spm v0.1.0
 	github.com/tendermint/tendermint v0.34.11
 	github.com/tendermint/tm-db v0.6.4
 	golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd // indirect
