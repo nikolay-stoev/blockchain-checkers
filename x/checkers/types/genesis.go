@@ -14,7 +14,12 @@ func DefaultGenesis() *GenesisState {
 		// this line is used by starport scaffolding # ibc/genesistype/default
 		// this line is used by starport scaffolding # genesis/types/default
 		StoredGameList: []*StoredGame{},
-		NextGame:       nil,
+		NextGame: &NextGame{
+			Creator:  "",
+			IdValue:  uint64(0),
+			FifoHead: NoFifoIdKey,
+			FifoTail: NoFifoIdKey,
+		},
 	}
 }
 
