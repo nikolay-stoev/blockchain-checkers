@@ -56,6 +56,7 @@ func (k msgServer) PlayMove(goCtx context.Context, msg *types.MsgPlayMove) (*typ
 	// Save for the next play move
 	storedGame.Game = game.String()
 	storedGame.Turn = game.Turn.Color
+	storedGame.MoveCount++
 	k.Keeper.SetStoredGame(ctx, storedGame)
 
 	ctx.EventManager().EmitEvent(
