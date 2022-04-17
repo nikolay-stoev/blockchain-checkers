@@ -24,11 +24,12 @@ func (k msgServer) CreateGame(goCtx context.Context, msg *types.MsgCreateGame) (
 		Red:       msg.Red,
 		Black:     msg.Black,
 		MoveCount: 0,
+		Deadline:  types.FormatDeadline(types.GetNextDeadline(ctx)),
 	}
-	// err := storedGame.Validate()
-	// if err != nil {
-	// 	return nil, err
-	// }
+	err := storedGame.Validate()
+	if err != nil {
+		return nil, err
+	}
 	k.Keeper.SendToFifoTail(ctx, &storedGame, &nextGame)
 	k.Keeper.SetStoredGame(ctx, storedGame)
 
